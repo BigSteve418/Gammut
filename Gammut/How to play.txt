@@ -1,0 +1,133 @@
+There are 7 pieces in Gammut:
+
+    The Lord (L)
+    The Lady (A)
+    The Jester (J)
+    The King (K)
+    The Queen (Q)
+    The Knight (N)
+    The Mage (M)
+
+
+The board layouts are as follows:
+
+    5x5
+    L|K|A|Q|L
+    -|-|-|-|-
+    -|-|-|-|-
+    -|-|-|-|-
+    L|Q|A|K|L
+
+    6x6
+    M|J|K|Q|J|N
+    L|A|L|L|A|L
+    -|-|-|-|-|-
+    -|-|-|-|-|-
+    L|A|L|L|A|L
+    N|J|Q|K|J|M
+
+    7x7
+    N|J|K|M|Q|J|N
+    A|L|L|A|L|L|A
+    -|-|-|-|-|-|-
+    -|-|-|-|-|-|-
+    -|-|-|-|-|-|-
+    A|L|L|A|L|L|A
+    N|J|Q|M|K|J|N
+
+    8x8
+    M|J|K|N|N|Q|J|M
+    L|A|L|A|A|L|A|L
+    -|-|-|-|-|-|-|-
+    -|-|-|-|-|-|-|-
+    -|-|-|-|-|-|-|-
+    -|-|-|-|-|-|-|-
+    L|A|L|A|A|L|A|L
+    M|J|Q|N|N|K|J|M
+
+    9x9
+    N|M|K|Q|N|Q|K|M|N
+    -|J|-|J|-|J|-|J|-
+    L|A|L|A|L|A|L|A|L
+    -|-|-|-|-|-|-|-|-
+    -|-|-|-|-|-|-|-|-
+    -|-|-|-|-|-|-|-|-
+    L|A|L|A|L|A|L|A|L
+    -|J|-|J|-|J|-|J|-
+    N|M|K|Q|N|Q|K|M|N
+
+
+Movement:
+
+    Lord:
+        -|-|-|-|-
+        -|-|X|-|-
+        -|X|L|X|-
+        -|-|X|-|-
+        -|-|-|-|-
+
+    Lady:
+        -|-|-|-|-
+        -|X|-|X|-
+        -|-|A|-|-
+        -|X|-|X|-
+        -|-|-|-|-
+    
+    Jester:
+        -|X|-|X|-
+        X|-|-|-|X
+        -|-|J|-|-
+        X|-|-|-|X
+        -|X|-|X|-
+    
+    King:
+        -|-|X|-|-
+        -|-|X|-|-
+        X|X|K|X|X
+        -|-|X|-|-
+        -|-|X|-|-
+    
+    Queen:
+        X|-|-|-|X
+        -|X|-|X|-
+        -|-|Q|-|-
+        -|X|-|X|-
+        X|-|-|-|X
+    
+    Knight:
+        -|-|X|-|-
+        -|X|X|X|-
+        X|X|N|X|X
+        -|X|X|X|-
+        -|-|X|-|-
+    
+    Mage:
+        X|-|-|-|X
+        -|X|X|X|-
+        -|X|M|X|-
+        -|X|X|X|-
+        X|-|-|-|X
+
+
+Eliminating pieces:
+
+    A piece is eliminated when an opposing piece moves onto it
+    A King or Queen must stop moving when they eliminate a piece
+
+
+Gameplay:
+
+    Players take turns moving pieces
+    One piece can be moved per turn
+    The goal is to eliminate your opponents Rulers (Kings and Queens)
+    Eliminating all oposing pieces can be a good goal as well
+
+
+Atypical game ends are:
+
+    Draw: both players have fewer than 3 pieces remaining
+    Domination: One player has fewer that three pieces, while the other player possesses more than 3 pieces
+
+
+
+
